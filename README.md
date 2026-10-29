@@ -57,7 +57,17 @@ AI RESPONSE
 
 ## XAML / WPF investigation notes
 
-[Not yet recorded]
+XAML creates the window's visual layout, including the text blocks and the "Say Hello" button.
+
+C# handles the button click.
+
+Prediction:  When I click the button "Say Hello," the window will display "Hello, Ari!" 
+
+What I tried:  Created the WPF window in XAML 
+
+Result: The XAML layout is complete. I ran it and the output was a button that returned "Hello, Ari!"
+
+XAML controls how the window looks, while C# controls what happens when the button is clicked.
 
 ## Engine investigation notes
 
@@ -100,7 +110,7 @@ Console Hello World | Paulina | Completed
 WPF / XAML Window | Rudy | Completed
 Game Engine Attempt | Lexxie | Completed
 Whiteboard & Peer Check | Sam | Completed
-README & Receipt Integration | Lexxie | In progress
+README & Receipt Integration | Lexxie | Completed
 
 
 
