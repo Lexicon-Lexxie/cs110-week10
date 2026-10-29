@@ -38,7 +38,22 @@ Evidence file/link: Evidence/whiteboard.png, Evidence/console-run.png, Evidence/
 
 ## Console investigation notes
 
-[Not yet recorded]
+Prediction: I thought the program would display a greeting message in the console using the name Ari.
+
+What I tried: I created a Greeting class in Greeting.cs, made a new Greeting object in Program.cs, and called the BuildMessage() method.
+
+Result / error: At first, I got an error saying the Greeting type or namespace could not be found. I needed to make sure Greeting.cs was included in the same project as Program.cs.
+
+What it means / next step: The Greeting class stores a name, and BuildMessage() returns a string containing the greeting. Console.WriteLine() displays the message. My next step is to fix any errors, run the program, and check the output.
+
+Evidence file/link: Screenshot of the console output showing "Hello, world, Ari!" and the Greeting.cs and Program.cs source files.
+
+AI RESPONSE
+•	Greeting is defined in ..\Greetings.cs.
+•	The project includes it through the linked compile item in week10console.csproj.
+•	Program.cs creates a Greeting object using "Ari".
+•	BuildMessage() returns "Hello, world, Ari!".
+•	Console.WriteLine() displays the result.
 
 ## XAML / WPF investigation notes
 
